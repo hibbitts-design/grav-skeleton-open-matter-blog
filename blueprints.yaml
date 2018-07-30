@@ -1,0 +1,18 @@
+name: Open Matter Blog Site
+version: 0.9.5
+description: "Open Matter Blog with Git Sync, designed to support an open and collaborative environment, inside or outside of your LMS. Includes the Bootstrap4 Open Matter theme."
+icon: university
+author:
+ name: Hibbitts Design
+ email: hello@hibbittsdesign.org
+ url: http://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-skeleton-open-matter-blog
+demo: http://demo.hibbittsdesign.org/grav-open-matter-blog/
+docs: http://learn.hibbittsdesign.org/openmatterblog
+keywords: open, collaborative, flexbible, git, responsive, basic, blog, lms
+bugs: https://github.com/hibbitts-design/grav-skeleton-open-matter-blog/issues
+license: MIT
+
+dependencies:
+  - bootstrap4-open-matter
+  - bootstrap4

@@ -33,4 +33,3 @@ cc_license:
 hidehomemenulink: false
 displaycustommenus:
   enabled: false
-git_sync_repo_link: 'http://www.github.com'

@@ -1,7 +1,6 @@
 ---
 title: Blog
-sitemap:
-    changefreq: monthly
+published: true
 body_classes: 'header-image fullwidth'
 content:
     items: '@self.children'
@@ -12,17 +11,18 @@ content:
     pagination: '1'
 hero_classes: hero-large
 hero_scroll: false
+hide_page_title: true
 show_sidebar: true
-display_post_summary: false
+hide_post_summary: false
 hide_post_date: false
 hide_post_taxonomy: false
 hide_git_sync_repo_link: false
-blog_url: blog
 feed:
     description: 'Sample Blog Description'
     limit: 10
 pagination: true
+child_type: item
 ---
 
 # My **Open Matter** Blog
-## Create, Publish, Share, and Collaborate
+## Create, Publish, Share and Collaborate

@@ -2,12 +2,13 @@
 title: Sidebar
 routable: false
 visible: false
+position: top
 ---
 
-##### Markdown Area
+## Markdown Area
 
 Some text here.
 
-[plugin:page-inject](/twitterfeed)
+[twitter url="https://twitter.com/hibbittsdesign/lists/cpt-363" text="A Twitter list by @hibbittsdesign" height="600"]
 
 [plugin:page-inject](/embedlycard)

@@ -1,5 +1,4 @@
 navbar_style: navbar-dark
-navbar_bgcolor: '#222222'
 navbar_position: top
 navbar_breakpoint: md
 git_sync.edit_theme_link_location: none
@@ -10,17 +9,11 @@ streams:
     theme:
       type: ReadOnlyStream
       prefixes:
-        '': [user/mytheme, user/themes/bootstrap4-open-matter, user/themes/bootstrap4]
-menu:
-  -
-    text: Grav
-    icon: arrow-circle-right
-    url: 'http://getgrav.org/'
-    target: _self
+        '': [user/themes/mytheme, user/themes/bootstrap4-open-matter, user/themes/bootstrap4]
 chromeless:
   enabled: false
-display_of_git_sync_repo_link: page
-type_of_git_sync_repo_link: edit
+display_of_git_sync_repo_link: menu
+type_of_git_sync_repo_link: view
 git_sync_edit_note_text: 'Have a suggestion or correction?'
 git_sync:
   edit_theme_link_location: none
@@ -30,6 +23,15 @@ cc_license:
   enabled: false
   type: ccby
   icon: false
-hidehomemenulink: false
 displaycustommenus:
   enabled: false
+custommenu:
+  -
+    text: Grav
+    icon: arrow-circle-right
+    url: 'https://getgrav.org/'
+    target: _blank
+theme_stylesheet: default
+navbar_bg: default
+navbar_bg_color: '#651e49'
+git_sync_edit_theme_link_location: none
